@@ -1,0 +1,12 @@
+.body{
+}
+
+.footer{
+    position:sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color:  var(--primary-color);
+}

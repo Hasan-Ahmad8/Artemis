@@ -1,0 +1,41 @@
+body{
+    background-image: url("/Assets/cheese-pattern.png");
+    background-size: 6%;
+    background-position: center top;
+}
+
+
+.compose__post{
+    background-color: var(--card-color);
+    display:inline-block;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+}
+
+.postText{
+    height: 30vh;
+    width: 20vw;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.title{
+    width: 20vw;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.button{
+    margin-top: 10px;
+    width: 20vw;
+    height: 20px;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}

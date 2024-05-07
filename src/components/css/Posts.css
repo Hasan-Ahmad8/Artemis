@@ -1,0 +1,81 @@
+:root{
+    --bg: #001D66;
+    --title: #00257F;
+    --para-text: rgba(0,0,0,0.67);
+    --title-font: 'Josefin Slab', serif;
+    --text-font: 'PT Serif', Serif;
+    --width: 20em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--title);
+    text-transform: capitalize;
+    font-family: var(--title-font);
+}
+
+body{
+    background-image: url("/Assets/cheese-pattern.png");
+    background-size: 6%;
+    background-position: center top;
+    display: grid;
+}
+
+
+.post__date{
+    font-size: calc(var(--width)/25);
+}
+
+.post__name{
+    font-size: calc(var(--width)/25);
+}
+
+.post__post{
+    font-size: 20px;
+}
+
+.display__posts{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.outerLayer{
+    display: block;
+    background-color: var(--card-color);
+    display:inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    max-width: 1100px;
+    width: 100%;
+   
+
+}
+
+.post{
+    background-color: rgb(240, 248, 255);
+    display:inline-block;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    max-width: 900px;
+    width: 50%;
+}
+
+.deleteBtn{
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.deleteBtn:hover{
+    background-color: var(--primary-color);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+a{
+    font-size: calc(var(--width)/25);
+    color: rgb(104, 104, 104);
+}

@@ -1,0 +1,23 @@
+.about__section{
+    display: block;
+    background-color: var(--card-color);
+    display:inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.about__text{
+    background-color: rgb(240, 248, 255);
+    display:inline-block;
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    border-radius: 20px;
+    margin: 10px;
+    max-width: 900px;
+    width: 50%;
+}

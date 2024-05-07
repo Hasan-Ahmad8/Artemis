@@ -1,0 +1,52 @@
+.comment__box{
+    display: block;
+    background-color: var(--card-color);
+    display:inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.enter__comment{
+    background-color: rgb(240, 248, 255);
+    display:inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    max-width: 900px;
+    width: 70%;
+}
+
+.comment__button{
+    background-color: rgb(240, 248, 255);
+    padding: 8px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.comment__section{
+    display: block;
+    background-color: var(--card-color);
+    display:inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    margin: 10px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.comments{
+    align-items: start;
+    background-color: rgb(240, 248, 255);
+    padding: 8px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.posted__date{
+    font-size: calc(var(--width)/25);
+}

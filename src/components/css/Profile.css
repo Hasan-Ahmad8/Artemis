@@ -1,0 +1,13 @@
+.profile__card{
+    background-color: var(--card-color);
+    display:inline-block;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.log__out{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}

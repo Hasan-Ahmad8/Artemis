@@ -1,0 +1,18 @@
+body{
+}
+
+.header{
+    color: aliceblue;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav__item{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+}
